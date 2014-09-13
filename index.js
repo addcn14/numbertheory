@@ -13,7 +13,7 @@ while(testForZero === false){
 *-------------------------------------------------
 */
   console.log(firstNum)
-  if(firstNum === undefined){
+  if(firstNum == undefined){
     console.log("worked")
   }else{
     console.log("didn't work")
