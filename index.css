@@ -69,4 +69,9 @@ body {
 	position:relative;
 	top:1px;
 }
-
+#left {
+	float:left;
+}
+#right {
+	float:right;
+}
