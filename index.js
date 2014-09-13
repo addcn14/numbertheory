@@ -13,7 +13,7 @@ while(testForZero === false){
 *-------------------------------------------------
 */
   console.log(firstNum)
-  if(firstNum === null){
+  if(firstNum === null || secondNum === null || firstNum === "" || secondNum === ""){
     console.log("worked")
   }else{
     console.log("didn't work")
