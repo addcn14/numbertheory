@@ -15,10 +15,8 @@ while(testForZero === false){
   console.log(firstNum)
   if(firstNum === null || secondNum === null || firstNum === "" || secondNum === ""){
     console.log("worked")
-  }else{
-    console.log("didn't work")
-  }
   testForZero = true
+  }
 /*set larger number to largerNum, smaller to smallerNum
 *------------------------------------------------------
 */
@@ -74,10 +72,8 @@ while(testForZero === false){
   console.log(firstNum)
   if(firstNum === null || secondNum === null || firstNum === "" || secondNum === ""){
     console.log("worked")
-  }else{
-    console.log("didn't work")
-  }
   testForZero = true
+  }
 /*set larger number to largerNum, smaller to smallerNum
 *------------------------------------------------------
 */
