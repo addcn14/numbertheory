@@ -3,24 +3,24 @@ $("#gcd").click(function(){
 /*get numbers: firstNum, secondNum
 *---------------------------------
 */
-var testForZero = false
+testForZero = false
 while(testForZero === false){
 
-  var firstNum = Number(prompt("Please enter the value of the first number.")
-  var secondNum = Number(prompt("Please enter the value of the second number.")
+  firstNum = Number(prompt("Please enter the value of the first number.")
+  secondNum = Number(prompt("Please enter the value of the second number.")
 
 /*set larger number to largerNum, smaller to smallerNum
 *------------------------------------------------------
 */
 
   if (firstNum !== 0 && secondNum!== 0) {
-    var testForZero = true
+     testForZero = true
     if (firstNum >= secondNum) {
-      var a = firstNum
-      var b = secondNum
+      a = firstNum
+      b = secondNum
     } else {
-      var a = secondNum
-      var b = firstNum
+      a = secondNum
+      b = firstNum
     }
     
 /*start gcd computations:
@@ -28,9 +28,9 @@ while(testForZero === false){
 */
 
     while(b !== 0) {
-      var rBkup = b
-      var b = a % b
-      var a = rBkup
+      rBkup = b
+      b = a % b
+      a = rBkup
     }
     alert ("This is the gcd " + rBkup)
   }
