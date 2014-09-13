@@ -6,14 +6,14 @@ $("#gcd").click(function(){
 testForZero = false
 while(testForZero === false){
 
-  var firstNum = Number(prompt("Please enter the value of the first number."))
-  var secondNum = Number(prompt("Please enter the value of the second number."))
+  var firstNum = prompt("Please enter the value of the first number.")
+  var secondNum = prompt("Please enter the value of the second number.")
 
 /*for "prevent this page from additional dialogs"
 *-------------------------------------------------
 */
   console.log(firstNum)
-  if(firstNum == undefined){
+  if(firstNum === undefined){
     console.log("worked")
   }else{
     console.log("didn't work")
@@ -22,7 +22,9 @@ while(testForZero === false){
 /*set larger number to largerNum, smaller to smallerNum
 *------------------------------------------------------
 */
-
+firstNum = Number(firstNum)
+secondNum = Number(secondNum)
+//^^ seems redundant but its to make sure no dialog box x's
   if (firstNum !== 0 && secondNum!== 0) {
      testForZero = true
     if (firstNum >= secondNum) {
