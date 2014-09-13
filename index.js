@@ -1,5 +1,4 @@
-$(document).ready(){
-  $(#gcd).click(){
+$(#gcd).click(){function(){
 /*get numbers: firstNum, secondNum
 *---------------------------------
 */
@@ -43,5 +42,4 @@ while(testForZero === false){
     alert("That was an invalid input. Please try again.")
     }
 }
-}
-}
+}}
