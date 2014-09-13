@@ -1,4 +1,5 @@
 $(#gcd).click(){function(){
+  console.log("Has been clicked.")
 /*get numbers: firstNum, secondNum
 *---------------------------------
 */
