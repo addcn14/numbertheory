@@ -14,7 +14,9 @@ while(testForZero === false){
 */
   testForZero = true
   console.log(firstNum)
-  //if(firstNum === undefined)
+  if(firstNum === undefined){
+  console.log("worked")
+  }
 /*set larger number to largerNum, smaller to smallerNum
 *------------------------------------------------------
 */
