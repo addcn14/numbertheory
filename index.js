@@ -12,13 +12,13 @@ while(testForZero === false){
 /*for "prevent this page from additional dialogs"
 *-------------------------------------------------
 */
-  testForZero = true
   console.log(firstNum)
   if(firstNum === undefined){
     console.log("worked")
   }else{
     console.log("didn't work")
   }
+  testForZero = true
 /*set larger number to largerNum, smaller to smallerNum
 *------------------------------------------------------
 */
