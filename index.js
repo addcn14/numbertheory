@@ -58,7 +58,7 @@ secondNum = Number(secondNum)
 })
 
 $("#LCM").click(function(){
-  console.log("has been clicked.")
+  //console.log("has been clicked.")
 /*get numbers: firstNum, secondNum
 *---------------------------------
 */
