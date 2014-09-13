@@ -1,5 +1,5 @@
-$(#gcd).click(){function(){
-  console.log("Has been clicked.")
+$("#gcd").click(function(){
+  console.log("has been clicked.")
 /*get numbers: firstNum, secondNum
 *---------------------------------
 */
@@ -43,4 +43,4 @@ while(testForZero === false){
     alert("That was an invalid input. Please try again.")
     }
 }
-}}
+})
