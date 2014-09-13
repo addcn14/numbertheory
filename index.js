@@ -65,9 +65,19 @@ $("#LCM").click(function(){
 testForZero = false
 while(testForZero === false){
 
-  var firstNum = Number(prompt("Please enter the value of the first number."))
-  var secondNum = Number(prompt("Please enter the value of the second number."))
+  var firstNum = prompt("Please enter the value of the first number.")
+  var secondNum = prompt("Please enter the value of the second number.")
 
+/*for "prevent this page from additional dialogs"
+*-------------------------------------------------
+*/
+  console.log(firstNum)
+  if(firstNum === null || secondNum === null || firstNum === "" || secondNum === ""){
+    console.log("worked")
+  }else{
+    console.log("didn't work")
+  }
+  testForZero = true
 /*set larger number to largerNum, smaller to smallerNum
 *------------------------------------------------------
 */
