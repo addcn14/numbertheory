@@ -3,8 +3,8 @@ $(document).ready(){
 /*get numbers: firstNum, secondNum
 *---------------------------------
 */
-
-while(testForZero = false){
+var testForZero = false
+while(testForZero === false){
 
   var firstNum = Number(prompt("Please enter the value of the first number.")
   var secondNum = Number(prompt("Please enter the value of the second number.")
@@ -13,24 +13,24 @@ while(testForZero = false){
 *------------------------------------------------------
 */
 
-  if (largerNum !== 0 && smallerNum!== 0) {
-    testForZero = true
+  if (firstNum !== 0 && secondNum!== 0) {
+    var testForZero = true
     if (firstNum >= secondNum) {
-      largerNum = firstNum
-      smallerNum = secondNum
+      var a = firstNum
+      var b = secondNum
     } else {
-      largerNum = secondNum
-      smallerNum = firstNum
+      var a = secondNum
+      var b = firstNum
     }
     
 /*start gcd computations:
 *-------------------------
 */
-  
+
     while(b !== 0) {
-      rBkup = b
-      b = a % b
-      a = rBkup
+      var rBkup = b
+      var b = a % b
+      var a = rBkup
     }
     alert ("This is the gcd " + rBkup)
   }
