@@ -54,13 +54,13 @@ body {
 	text-align:center;
 	text-shadow:1px 1px 0px #ffffff;
 }
-.gcd:hover {
+#gcd:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
 	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
 	background-color:#dfdfdf;
 }
-.gcd:active {
+#gcd:active {
 	position:relative;
 	top:1px;
 }
