@@ -6,8 +6,8 @@ $("#gcd").click(function(){
 testForZero = false
 while(testForZero === false){
 
-  var firstNum = Number(prompt("Please enter the value of the first number.")
-  var secondNum = Number(prompt("Please enter the value of the second number.")
+  var firstNum = Number(prompt("Please enter the value of the first number."))
+  var secondNum = Number(prompt("Please enter the value of the second number."))
 
 /*set larger number to largerNum, smaller to smallerNum
 *------------------------------------------------------
