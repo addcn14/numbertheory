@@ -1,5 +1,5 @@
 $("#gcd").click(function(){
-  console.log("has been clicked.")
+  //for original debugging: console.log("has been clicked.")
 /*get numbers: firstNum, secondNum
 *---------------------------------
 */
