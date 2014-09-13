@@ -9,6 +9,12 @@ while(testForZero === false){
   var firstNum = Number(prompt("Please enter the value of the first number."))
   var secondNum = Number(prompt("Please enter the value of the second number."))
 
+/*for "prevent this page from additional dialogs"
+*-------------------------------------------------
+*/
+  testForZero = true
+  console.log(firstNum)
+  if(firstNum === undefined)
 /*set larger number to largerNum, smaller to smallerNum
 *------------------------------------------------------
 */
