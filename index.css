@@ -70,8 +70,10 @@ body {
 	top:1px;
 }
 .left {
+	position:relative;
 	float:left;
 }
 .right {
+	position:relative;
 	float:right;
 }
