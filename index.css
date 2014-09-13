@@ -23,6 +23,7 @@ body {
 	font-size: 25px;
 }
 #gcd,#LCM {
+	position: relative;
 	text-align: center;
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
