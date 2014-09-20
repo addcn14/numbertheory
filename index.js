@@ -1,4 +1,4 @@
-var main = funtion(){
+var main = function(){
 $("#gcd").click(function(){
   //for original debugging: console.log("has been clicked.")
 /*get numbers: firstNum, secondNum
