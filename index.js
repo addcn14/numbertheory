@@ -1,3 +1,4 @@
+var main = funtion(){
 $("#gcd").click(function(){
   //for original debugging: console.log("has been clicked.")
 /*get numbers: firstNum, secondNum
@@ -110,3 +111,5 @@ while(testForZero === false){
     }
 }
 })
+}
+$(document).ready(main)
