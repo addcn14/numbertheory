@@ -113,3 +113,16 @@ while(testForZero === false){
 })
 }
 $(document).ready(main)
+
+/*
+*Here's the 3n+1 algorithm
+*NOTE:
+*if n is odd, then new n = n*3+1
+*if n is even, then new n = n/2
+*/
+alert("Welcome to the 3n+1 program.");
+$("#empty").append("<br>Here are the results")
+/*var n = Number(prompt("What is the number of the original n?"));
+while(n !== 1 || n!==4 || n!==2){
+  
+}*/
