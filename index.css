@@ -9,13 +9,6 @@ strong{
 }
 .center {
 	text-align: center;
-	font-size:40px;
-}
-#info {
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color:white;
-  overflow:hidden;
 }
 body {
   background-color:#66BFFF;
@@ -85,3 +78,12 @@ body {
 	position:relative;
 	float:center;
 }
+
+/*
+#info {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color:white;
+  overflow:hidden;
+}
+*/
