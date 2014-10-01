@@ -78,3 +78,10 @@ body {
 	position:relative;
 	float:right;
 }
+.sideempty{
+	background-color:green;
+}
+.center{
+	position:relative;
+	float:center;
+}
